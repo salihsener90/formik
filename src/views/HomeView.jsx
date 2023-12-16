@@ -22,7 +22,7 @@ const HomeView = ({ coins }) => {
         <th>market hacmi</th>
         <th>değişim (24s)</th>
         <th>%değişim (24s)</th>
-      </tr>npm 
+      </tr> 
       </thead>
       <tbody>
         {coins.map((coin) => (
