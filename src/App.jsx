@@ -5,7 +5,7 @@ import Auth from "./views/Auth"
 import HeaderView from './views/HeaderView'
 import axios from "axios"
 
-axios.defaults.baseURL = 'https://api.coincap.io/v2'
+axios.defaults.baseURL = "https://api.coincap.io/v2"
 function App() {
   
   return (

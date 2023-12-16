@@ -8,10 +8,11 @@ const HomeController = () => {
   const [coins, setCoins ] = useState([]);
   useEffect(() => {
     axios
-      .get ('/assets')
-      .then((res) => setCoins(res.data.data))
+      .get ("/assets")
+      .then((res) => console.log(res))
       .catch((err) => console.log(err));
   }, []);
+  console.log(coins)
   return <HomeView coins={coins} />;
 };
 
